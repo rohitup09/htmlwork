@@ -1,0 +1,15 @@
+{
+  "name": "gaming-therapy",
+  "version": "1.0.0",
+  "description": "website for the college project",
+  "main": "index.js",
+  "scripts": {
+    "compilesass": "node-sass ./scss/main.scss ./style.css -w "
+  },
+  "author": "Aditya Singhal",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

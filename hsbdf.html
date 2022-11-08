@@ -1,0 +1,27 @@
+<html>
+<head>
+<script type="text/javascript">
+
+function updateFrame() {
+	var frame = document.getElementById("loopingFrame");
+	if(!frame.count)
+	{
+		frame.count = 1;
+	}
+	else
+	{
+		frame.count++;
+	}
+
+	var i = frame.count;
+
+	frame.src = "index.html" +1;
+
+}
+</script>
+</head>
+<body>
+<iframe src="index.html" width="200" height="300" scrolling="auto" frameborder=0></iframe>        
+
+</body>
+</html>
